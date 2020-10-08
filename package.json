@@ -1,0 +1,25 @@
+{
+  "name": "azure_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "build": "webpack --display-error-details --config ./webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/applicationinsights-web": "^2.5.9",
+    "applicationinsights": "^1.8.7",
+    "d3": "^6.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
